@@ -25,7 +25,7 @@ RUN apt update -y && \
 #RUN apt install ${APT_FLAGS} \
 #
 #COPY app/nginx.conf /etc/nginx/conf.d/default.conf
-COPY app ${DOCUMENTROOT}
+#COPY app ${DOCUMENTROOT}
 # --------------- FIN COUCHE PHP --------------------
 
 # OUVERTURE DU PORT HTTP
